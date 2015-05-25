@@ -1,0 +1,179 @@
+/*
+	==========================================================================
+	@section: Main StyleSheets (CSS)
+	==========================================================================
+*/
+
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+
+	html {
+		font-size: 110%;
+		background: #EEEEEE;
+		color: #222222;
+		font-family: 'Neuton', times, serif;
+		box-sizing: border-box;
+	}
+
+	body {
+		line-height: 1.2;
+		width: 90%;
+		max-width: 50em;
+		margin: 3rem auto;
+	}
+
+@media (max-width: 55em) {
+
+	body {
+		width: 100%;
+		padding: 0 1rem;
+	}
+
+}
+
+	header,
+	figure,
+	p {
+		margin: 0;
+	}
+
+	p {
+		margin-bottom: 0.5rem;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+
+	a {
+		color: #222222;
+	}
+
+	hr {
+		border: 0;
+		border-top: 1px solid #EEEEEE;
+		margin: 0;
+		margin-top: 1rem;
+		padding: 0;
+		padding-top: 1rem;
+	}
+
+	input {
+		display: block;
+		border: 2px solid #EEEEEE;
+		width: 100%;
+		background-color: #FFFFFF;
+		border-radius: 0;
+		font-size: 1rem;
+		font-family: 'Neuton', times, serif;
+		padding: 0.5rem 1rem;
+		-webkit-appearance: none;
+	}
+
+	button {
+		display: inline-block;
+		background-color: #CD6666;
+		border: 0;
+		color: #ffffff;
+		padding: 0.5rem 1rem;
+		cursor: pointer;
+		outline: 0;
+		-webkit-appearance: none;
+	}
+
+	button:hover {
+		box-shadow: 3px 3px #FFD0D0;
+	}
+
+	img {
+		max-width: 100%;
+		vertical-align: bottom;
+	}
+
+	h1 {
+		font-size: 7rem;
+		color: #CD6666;
+		text-shadow: 3px 3px 0px #FFD0D0;
+		text-align: center;
+		line-height: 0.75;
+		margin: 0 0 2rem 0;
+	}
+
+@media (max-width: 50em) {
+
+	h1 {
+		font-size: 5rem;
+	}
+
+}
+
+@media (max-width: 40em) {
+
+	h1 {
+		font-size: 3rem;
+	}
+
+}
+
+	.section {
+		padding: 1rem;
+	}
+
+	.section header {
+		box-shadow: 0.4rem 0.4rem #E2E2E2;
+		border-bottom: 0.2rem solid #EEE;
+	}
+
+	.section h2 {
+		background-color: #fff;
+		padding: 1rem;
+		margin: 0;
+	}
+
+	.section h2 .icon {
+		color: #CD6666;
+		text-shadow: 3px 3px 0px #FFD0D0;
+		display: block;
+		font-size: 3rem;
+		margin-bottom: 0.15rem;
+	}
+
+	.section .content {
+		display: block;
+		background-color: #fff;
+		box-shadow: 0.4rem 0.4rem #E2E2E2;
+		padding: 1rem;
+		margin: 0;
+	}
+
+	.section .content.no-spacing {
+		padding: 0;
+	}
+
+	.section.small {
+		text-align: center;
+		float: left;
+		width: 33.33333%;
+	}
+
+@media (max-width: 40em) {
+
+	.section.small {
+		width: 100%;
+		float: none;
+	}
+
+}
+
+	.clear {
+		clear: both;
+	}
+
+	.right {
+		float: right;
+	}
+
+	.small {
+		font-size: 0.8em;
+	}
