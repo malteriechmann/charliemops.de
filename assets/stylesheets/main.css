@@ -32,6 +32,12 @@
 
 }
 
+	.browse-happy {
+		text-align: center;
+		margin-bottom: 3rem;
+		padding: 0 2rem;
+	}
+
 	header,
 	figure,
 	p {
