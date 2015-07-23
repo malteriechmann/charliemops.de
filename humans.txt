@@ -3,6 +3,6 @@
 
 # TEAM
 
-    Malte Mops -- @malteriechmann
-    Aaron Mops -- @manfredmuster
-    Jakob Mops -- @JakobErichsen
+	Malte Mops -- @malteriechmann -- malte@charliemops.de
+	Aaron Mops -- @manfredmuster -- aaron@charliemops.de
+	Jakob Mops -- @JakobErichsen -- jakob@charliemops.de
