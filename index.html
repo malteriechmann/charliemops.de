@@ -98,8 +98,15 @@
 		<section class="section clear">
 			<blockquote class="content">
 				<p><strong>It's for friends.</strong></p>
-				<footer><a href="mailto:aaron@charliemops.de">Aaron</a>, <a href="mailto:malte@charliemops.de">Malte</a> und <a href="mailto:jakob@charliemops.de">Jakob</a>. <span class="right">2015 <span class="icon-beer"></span></span></footer>
+				<footer><a href="mailto:aaron@charliemops.de">Aaron</a>, <a href="mailto:malte@charliemops.de">Malte</a> und <a href="mailto:jakob@charliemops.de">Jakob</a>. <span class="right"><span class="year">2015</span> <span class="icon-beer"></span></span></footer>
 			</blockquote>
 		</section>
 	</body>
+	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', function() {
+			var $year = this.querySelector('.year');
+
+			$year.innerHTML = (new Date).getFullYear();
+		});
+	</script>
 </html>
